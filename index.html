@@ -13,16 +13,17 @@
 </head>
 <body>
     <div id="main">
-        <header class="header">
+        <header id="header" class="header">
             <div class="header_logo">
-                <img src="./assets/image/shopify1.png" alt="" class="header_logo-img">
+                <a href="#"><img src="./assets/image/shopify1.png" alt="" class="header_logo-img"></a>
             </div>
             <div class="navicons">
                 <nav class="navbar">
                     <li class="navbarCloseIcon"><span>&times</span></li>
-                    <li class="navbaritem"><a href="#home" id="home" class="active">Home</a></li>
+                    <li class="navbaritem"><a href="#home" class="active">Home</a></li>
+                    <li class="navbaritem"><a href="#shop" >shop</a></li>
                     <li class="navbaritem navbaritem-pages">
-                        <a href="#pages" id="pages">pages</a>
+                        <a href="#Services">Services</a>
                         <ul class="subnav_pages">
                             <li class="subnav_pages-item"><a>About</a><i class="fa-solid fa-angle-right"></i></li>
                             <li class="subnav_pages-item"><a>Service</a></li>
@@ -32,7 +33,7 @@
                         </ul>
                     </li>
                     <li class="navbaritem navbaritem-features">
-                        <a href="#features" id="features">features</a>
+                        <a href="#features">features</a>
                         <ul class="subnav_features">
                             <li class="subnav_features-item"><a>About</a><i class="fa-solid fa-angle-right"></i></li>
                             <li class="subnav_features-item"><a>Service</a></li>
@@ -42,7 +43,7 @@
                         </ul>
                     </li>
                     <li class="navbaritem navbaritem-portfolio">
-                        <a href="#portfolio" id="portfolio">portfolio</a>
+                        <a href="#portfolio">portfolio</a>
                         <ul class="subnav_portfolio">
                             <li class="subnav_portfolio-item"><a>About</a><i class="fa-solid fa-angle-right"></i></li>
                             <li class="subnav_portfolio-item"><a>Service</a></li>
@@ -51,9 +52,8 @@
                             <li class="subnav_portfolio-item"><a>Contact</a></li>
                         </ul>
                     </li>
-                    <li class="navbaritem"><a href="#shortcodes" id="shortcodes">shortcodes</a></li>
-                    <li class="navbaritem"><a href="#blogs" id="blogs">blogs</a></li>
-                    <li class="navbaritem"><a href="#shop" id="shop">shop</a></li>
+                    <li class="navbaritem"><a href="#contact">contact</a></li>
+                    <li class="navbaritem"><a href="#blogs">blogs</a></li>
                 </nav>
                 <div class="icons">
                     <div class="fas fa-search" id="search-btn"></div>
@@ -131,7 +131,7 @@
             <div class="overlay"></div>
         </header>
 
-        <section class="section_slider">
+        <section id="home" class="section_slider">
             <i class="fa-solid fa-angle-left prev-btn"></i>
             <div class="section_slider-wrapper">
                 <div class="section_slider-main">
@@ -170,7 +170,7 @@
             </div>
             <i class="fa-solid fa-angle-right next-btn"></i>
         </section>
-        <section class="section_column">
+        <section  class="section_column">
             <div class="section_column-container">
                 <div class="section_column-container-item">
                     <div class="section_column-container-icon">
@@ -212,7 +212,7 @@
                 
             </div>
         </section>
-        <section class="section_category">
+        <section id="Services" class="section_category">
             <div class="section_category-heading">
                 <h3>We are offring best Services</h3>
                 <h1>Our best popular Services for <br> Your successful business</h1>
@@ -304,7 +304,7 @@
                 </div>
             </div>
         </section>
-        <section class="section_parallax">
+        <section id="portfolio" class="section_parallax">
             <div class="section_parallax-overlay">
                 <div class="section_parallax-container">
                     <h3>We are offring best Services</h3>
@@ -315,7 +315,7 @@
                 </div>
             </div>
         </section> 
-        <section class="section_products">
+        <section id="shop" class="section_products">
             <div class="section_products-container">
                 <div class="section_products-content-text">
                     <h3>Our Portfolio</h3>
@@ -386,7 +386,7 @@
                 </div>
             </div>
         </section>
-        <section class="section_blog">
+        <section id="blogs" class="section_blog">
             <div class="section_blog-content section_products-content-text">
                 <h3>Recent Blogs</h3>
                 <h1>Latest Blog Posts</h1>
@@ -483,7 +483,7 @@
                 
             </div>
         </section>
-        <section class="section_footer-slider">
+        <section id="features" class="section_footer-slider">
             <div class="section_footer-slider-items">
                 <ul class="section_footer-slider-item-list">
                     <li class="section_footer-slider-item">
@@ -514,7 +514,7 @@
                 </ul>
             </div>
         </section>
-        <section class="section_footer-infor">
+        <section id="contact" class="section_footer-infor">
             <ul class="section_footer-infor-list">
                 <li class="section_footer-infor-item">
                     <div class="section_footer-infor-item-image">
