@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="shortcut icon" href="./assets/image/logoshopify.png" type="image/x-icon">
+    <title>Shopify</title>
+</head>
+<body>
+    <div id="main">
+        <header class="header">
+            <div class="header_logo">
+                <img src="./assets/image/shopify1.png" alt="" class="header_logo-img">
+            </div>
+            <div class="navicons">
+                <nav class="navbar">
+                    <li class="navbarCloseIcon"><span>&times</span></li>
+                    <li class="navbaritem"><a href="#home" id="home" class="active">Home</a></li>
+                    <li class="navbaritem navbaritem-pages">
+                        <a href="#pages" id="pages">pages</a>
+                        <ul class="subnav_pages">
+                            <li class="subnav_pages-item"><a>About</a><i class="fa-solid fa-angle-right"></i></li>
+                            <li class="subnav_pages-item"><a>Service</a></li>
+                            <li class="subnav_pages-item"><a>Team</a></li>
+                            <li class="subnav_pages-item"><a>FAQ</a></li>
+                            <li class="subnav_pages-item"><a>Contact</a></li>
+                        </ul>
+                    </li>
+                    <li class="navbaritem navbaritem-features">
+                        <a href="#features" id="features">features</a>
+                        <ul class="subnav_features">
+                            <li class="subnav_features-item"><a>About</a><i class="fa-solid fa-angle-right"></i></li>
+                            <li class="subnav_features-item"><a>Service</a></li>
+                            <li class="subnav_features-item"><a>Team</a></li>
+                            <li class="subnav_features-item"><a>FAQ</a></li>
+                            <li class="subnav_features-item"><a>Contact</a></li>
+                        </ul>
+                    </li>
+                    <li class="navbaritem navbaritem-portfolio">
+                        <a href="#portfolio" id="portfolio">portfolio</a>
+                        <ul class="subnav_portfolio">
+                            <li class="subnav_portfolio-item"><a>About</a><i class="fa-solid fa-angle-right"></i></li>
+                            <li class="subnav_portfolio-item"><a>Service</a></li>
+                            <li class="subnav_portfolio-item"><a>Team</a></li>
+                            <li class="subnav_portfolio-item"><a>FAQ</a></li>
+                            <li class="subnav_portfolio-item"><a>Contact</a></li>
+                        </ul>
+                    </li>
+                    <li class="navbaritem"><a href="#shortcodes" id="shortcodes">shortcodes</a></li>
+                    <li class="navbaritem"><a href="#blogs" id="blogs">blogs</a></li>
+                    <li class="navbaritem"><a href="#shop" id="shop">shop</a></li>
+                </nav>
+                <div class="icons">
+                    <div class="fas fa-search" id="search-btn"></div>
+                    <div class="fas fa-shopping-cart" id="cart-btn"></div>                   
+                    <div class="fas fa-bars" id="menu-btn"></div>
+        
+                </div>
+
+            </div>
+            <div class="header_search">
+                <div class="header_search-input">
+                    <div class="header_search-input-box">
+                        <input type="text" name="search" id="header_search-input" placeholder="Type to search">
+                        <div class="fas fa-search"></div>
+                    </div>
+                </div>
+                <div class="header_search-close">
+                    &times
+                </div>
+            </div>
+            <div class="header_cart">
+                <div class="header_cart-heading">
+                    <p class="header_cart-heading-amounts">2 Items</p>
+                    <p class="header_cart-heading-price">$99</p>
+
+                </div>
+                <div class="header_cart-body">
+                    <div class="header_cart-item">
+                        <img src="./assets/image/cart-img1.jpg" alt="">
+                        <div class="header_cart-item-descandprice">
+                            <h3>Jean & Teashirt</h3>
+                            <p>$30</p>
+                        </div>
+                        <span class="header_cart-item-close">&times</span>
+                    </div>
+                    <div class="header_cart-item">
+                        <img src="./assets/image/cart-img1.jpg" alt="">
+                        <div class="header_cart-item-descandprice">
+                            <h3>Jean & Teashirt</h3>
+                            <p>$30</p>
+                        </div>
+                        <span class="header_cart-item-close">&times</span>
+                    </div>
+                    <div class="header_cart-item">
+                        <img src="./assets/image/cart-img1.jpg" alt="">
+                        <div class="header_cart-item-descandprice">
+                            <h3>Jean & Teashirt</h3>
+                            <p>$30</p>
+                        </div>
+                        <span class="header_cart-item-close">&times</span>
+                    </div>
+                    <div class="header_cart-item">
+                        <img src="./assets/image/cart-img1.jpg" alt="">
+                        <div class="header_cart-item-descandprice">
+                            <h3>Jean & Teashirt</h3>
+                            <p>$30</p>
+                        </div>
+                        <span class="header_cart-item-close">&times</span>
+                    </div>
+                    <div class="header_cart-item">
+                        <img src="./assets/image/cart-img1.jpg" alt="">
+                        <div class="header_cart-item-descandprice">
+                            <h3>Jean & Teashirt</h3>
+                            <p>$30</p>
+                        </div>
+                        <span class="header_cart-item-close">&times</span>
+                    </div>
+                </div>
+                <div class="header_cart-footer">
+                    <button class="header_cart-view">View cart</button>
+                    <button class="header_cart-check">Check Out</button>
+
+                </div>
+            </div>
+            <div class="overlay"></div>
+        </header>
+
+        <section class="section_slider">
+            <i class="fa-solid fa-angle-left prev-btn"></i>
+            <div class="section_slider-wrapper">
+                <div class="section_slider-main">
+                    <div class="secton_slider-item">
+                        <img src="./assets/image/backgroundslider.jpg" alt="">
+                        <div class="section_slider-container active">
+                            <h4 class="section_slider-heading">onsectetuer Adipiscing elit sit amet justo</h4>
+                            <h2 class="section_slider-desc desc-first">layered psd</h2>
+                            <h2 class="section_slider-desc desc-second"> file and mockups</h2>
+                            <button class="section_slider-btn"><a class="section_slider-btn-link">get started now</a></button>
+                        </div>
+                    
+                    </div>
+                    <div class="secton_slider-item">
+                        <img src="./assets/image/backgroundslider2.jpg" alt="">
+                        <div class="section_slider-container">
+                            <h4 class="section_slider-heading">onsectetuer Adipiscing elit sit amet justo</h4>
+                            <h2 class="section_slider-desc desc-first">Creative & Modern</h2>
+                            <h2 class="section_slider-desc desc-second"> Agency Studio</h2>
+                            <button class="section_slider-btn"><a class="section_slider-btn-link">get started now</a></button>
+                        </div>
+                    </div>
+                    <div class="secton_slider-item">
+                        <img src="./assets/image/backgroundslider3.jpg" alt="">
+                        <div class="section_slider-container">
+                            <h4 class="section_slider-heading">onsectetuer Adipiscing elit sit amet justo</h4>
+                            <h2 class="section_slider-desc desc-first">Clean & Modern </h2>
+                            <h2 class="section_slider-desc desc-second"> Digital Designs</h2>
+                            <button class="section_slider-btn"><a class="section_slider-btn-link">get started now</a></button>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                
+            </div>
+            <i class="fa-solid fa-angle-right next-btn"></i>
+        </section>
+        <section class="section_column">
+            <div class="section_column-container">
+                <div class="section_column-container-item">
+                    <div class="section_column-container-icon">
+                        <i class="fa-sharp fa-solid fa-display"></i>
+                    </div>
+                    <h2 class="section_column-container-heading">
+                        Fully responsive
+                    </h2>
+                    <p class="section_column-container-content">
+                        Vestibulum ante ipsum primis sit amet justo elit faucibus orci luctus
+                        ultrices posuere cubilia Curae.
+                    </p>
+
+                </div>
+                <div class="section_column-container-item">
+                    <div class="section_column-container-icon">
+                        <i class="fa-sharp fa-solid fa-copy"></i>
+                    </div>
+                    <h2 class="section_column-container-heading">
+                        Classic Styles
+                    </h2>
+                    <p class="section_column-container-content">
+                        Vestibulum ante ipsum primis sit amet justo elit faucibus orci luctus ultrices posuere cubilia Curae.
+                    </p>
+
+                </div>
+                <div class="section_column-container-item">
+                    <div class="section_column-container-icon">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <h2 class="section_column-container-heading">
+                        Secure Services
+                    </h2>
+                    <p class="section_column-container-content">
+                        Vestibulum ante ipsum primis sit amet justo elit faucibus orci luctus ultrices posuere cubilia Curae.
+                    </p>
+
+                </div>
+                
+            </div>
+        </section>
+        <section class="section_category">
+            <div class="section_category-heading">
+                <h3>We are offring best Services</h3>
+                <h1>Our best popular Services for <br> Your successful business</h1>
+            </div>
+            <div class="section_category-items">
+                <div class="section_category-box">
+                    <div class="section_category-item">
+                        <div class="section_category-icon">
+                            <i class="fa-sharp fa-solid fa-display"></i>
+                        </div>
+                        <h2 class="section_category-head">
+                            Responsive Design
+                        </h2>
+                        <p class="section_category-body">
+                            consectetuer adipiscing elit Suspendisse et justo consectetuer adipiscing Praesent mattis commodo augue Aliquam.
+                        </p>
+                        <a href="" class="section_category-link">Read More <i class="fa-sharp fa-solid fa-right-long"></i></a>
+                    </div>
+                </div>
+                <div class="section_category-box">
+                    <div class="section_category-item">
+                        <div class="section_category-icon">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <h2 class="section_category-head">
+                            Animations
+                        </h2>
+                        <p class="section_category-body">
+                            consectetuer adipiscing elit Suspendisse et justo consectetuer adipiscing Praesent mattis commodo augue Aliquam.
+                        </p>
+                        <a href="" class="section_category-link">Read More <i class="fa-sharp fa-solid fa-right-long"></i></a>
+                    </div>
+                </div>
+                <div class="section_category-box">
+                    <div class="section_category-item">
+                        <div class="section_category-icon">
+                            <i class="fa-solid fa-layer-group"></i>
+                        </div>
+                        <h2 class="section_category-head">
+                            PSD Files
+                        </h2>
+                        <p class="section_category-body">
+                            consectetuer adipiscing elit Suspendisse et justo consectetuer adipiscing Praesent mattis commodo augue Aliquam.
+                        </p>
+                        <a href="" class="section_category-link">Read More <i class="fa-sharp fa-solid fa-right-long"></i></a>
+                    </div>
+                </div>
+                <div class="section_category-box">
+                    <div class="section_category-item">
+                        <div class="section_category-icon">
+                            <i class="fa-regular fa-lightbulb"></i>
+                        </div>
+                        <h2 class="section_category-head">
+                            Creative Design
+                        </h2>
+                        <p class="section_category-body">
+                            consectetuer adipiscing elit Suspendisse et justo consectetuer adipiscing Praesent mattis commodo augue Aliquam.
+                        </p>
+                        <a href="" class="section_category-link">Read More <i class="fa-sharp fa-solid fa-right-long"></i></a>
+                    </div>
+                </div>
+                <div class="section_category-box">
+                    <div class="section_category-item">
+                        <div class="section_category-icon">
+                            <i class="fa-solid fa-clock"></i>
+                        </div>
+                        <h2 class="section_category-head">
+                            Icon Design
+                        </h2>
+                        <p class="section_category-body">
+                            consectetuer adipiscing elit Suspendisse et justo consectetuer adipiscing Praesent mattis commodo augue Aliquam.
+                        </p>
+                        <a href="" class="section_category-link">Read More <i class="fa-sharp fa-solid fa-right-long"></i></a>
+                    </div>
+                </div>
+                <div class="section_category-box">
+                    <div class="section_category-item">
+                        <div class="section_category-icon">
+                            <i class="fa-solid fa-shop"></i>
+                        </div>
+                        <h2 class="section_category-head">
+                            Shop Themes
+                        </h2>
+                        <p class="section_category-body">
+                            consectetuer adipiscing elit Suspendisse et justo consectetuer adipiscing Praesent mattis commodo augue Aliquam.
+                        </p>
+                        <a href="" class="section_category-link">Read More <i class="fa-sharp fa-solid fa-right-long"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section_parallax">
+            <div class="section_parallax-overlay">
+                <div class="section_parallax-container">
+                    <h3>We are offring best Services</h3>
+                    <h1>We offer best Services for your Business and Get <br> unlimited Features and many more Features</h1>
+                    <div class="line"></div>
+                    <button class="section_slider-btn section_parallax-container-btn"><a class="section_slider-btn-link section_parallax-container-btn-link"><i class="fa-regular fa-circle-play"></i> READ MORE</a></button>
+
+                </div>
+            </div>
+        </section> 
+        <section class="section_products">
+            <div class="section_products-container">
+                <div class="section_products-content-text">
+                    <h3>Our Portfolio</h3>
+                    <h1>Detailed digital Works</h1>
+                    <div class="line"></div>
+                    <p>
+                        Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est Curabitur eget orci Cras laoreet ligula Etiam .
+                    </p>
+                </div>
+                <div class="section_products-container-type">
+                    <button class="section_products-container-btn active">All</button>
+                    <button class="section_products-container-btn">Print</button>
+                    <button class="section_products-container-btn">Web Design</button>
+                    <button class="section_products-container-btn">Graphic</button>
+                    <button class="section_products-container-btn">Motion</button>
+                </div>
+
+                <div class="section_products-container-products">
+                    <div class="section_products-container-product">
+                        <img src="./assets/image/product1.jpg" alt="">
+                        <div class="section_products-container-product-desc">
+                            <h2>Lorem Ipsum Dolor Sit</h2>
+                            <div class="line"></div>
+                        </div>
+                        <div class="overlay"></div>
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="section_products-container-product">
+                        <img src="./assets/image/product2.jpg" alt="">
+                        <div class="section_products-container-product-desc">
+                            <h2>Lorem Ipsum Dolor Sit</h2>
+                            <div class="line"></div>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="section_products-container-product">
+                        <img src="./assets/image/product3.jpg" alt="">
+                        <div class="section_products-container-product-desc">
+                            <h2>Lorem Ipsum Dolor Sit</h2>
+                            <div class="line"></div>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="section_products-container-product">
+                        <img src="./assets/image/product4.jpg" alt="">
+                        <div class="section_products-container-product-desc">
+                            <h2>Lorem Ipsum Dolor Sit</h2>
+                            <div class="line"></div>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="section_products-container-product">
+                        <img src="./assets/image/product5.jpg" alt="">
+                        <div class="section_products-container-product-desc">
+                            <h2>Lorem Ipsum Dolor Sit</h2>
+                            <div class="line"></div>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="section_products-container-product">
+                        <img src="./assets/image/product6.jpg" alt="">
+                        <div class="section_products-container-product-desc">
+                            <h2>Lorem Ipsum Dolor Sit</h2>
+                            <div class="line"></div>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section_blog">
+            <div class="section_blog-content section_products-content-text">
+                <h3>Recent Blogs</h3>
+                <h1>Latest Blog Posts</h1>
+                <div class="line"></div>
+                <p>
+                    Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est Curabitur eget orci Cras laoreet ligula Etiam .
+                </p>
+            </div>
+            <div class="section_blog-items">
+                <div class="section_blog-item">
+                    <div class="section_blog-item-box">
+                        <div class="section_blog-item-img">
+                            <img src="./assets/image/imgblog1.jpg" alt="">
+                        </div>
+                        <div class="section_blog-item-content">
+                            <div class="section_blog-item-body">
+                                <h2 class="section_blog-item-body-heading">Praesent mattis commodo augue justo amet</h2>
+                                <div class="section_blog-item-body-cmt">
+                                    <span><i class="fa fa-user"></i> By codelayers</span>
+                                    <span><i class="fa-regular fa-comments"></i>  15 Comments</span>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodot.
+                                </p>
+                            </div>
+                            <div class="section_blog-item-footer">
+                                <div class="section_blog-item-footer-heart">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="section_blog-item-footer-share">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section_blog-item">
+                    <div class="section_blog-item-box">
+                        <div class="section_blog-item-img">
+                            <img src="./assets/image/imgblog2.jpg" alt="">
+                        </div>
+                        <div class="section_blog-item-content">
+                            <div class="section_blog-item-body">
+                                <h2 class="section_blog-item-body-heading">Praesent mattis commodo augue justo amet</h2>
+                                <div class="section_blog-item-body-cmt">
+                                    <span><i class="fa fa-user"></i> By codelayers</span>
+                                    <span><i class="fa-regular fa-comments"></i>  15 Comments</span>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodot.
+                                </p>
+                            </div>
+                            <div class="section_blog-item-footer">
+                                <div class="section_blog-item-footer-heart">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="section_blog-item-footer-share">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section_blog-item">
+                    <div class="section_blog-item-box">
+                        <div class="section_blog-item-img">
+                            <img src="./assets/image/imgblog3.jpg" alt="">
+                        </div>
+                        <div class="section_blog-item-content">
+                            <div class="section_blog-item-body">
+                                <h2 class="section_blog-item-body-heading">Praesent mattis commodo augue justo amet</h2>
+                                <div class="section_blog-item-body-cmt">
+                                    <span><i class="fa fa-user"></i> By codelayers</span>
+                                    <span><i class="fa-regular fa-comments"></i>  15 Comments</span>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodot.
+                                </p>
+                            </div>
+                            <div class="section_blog-item-footer">
+                                <div class="section_blog-item-footer-heart">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="section_blog-item-footer-share">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="section_footer-slider">
+            <div class="section_footer-slider-items">
+                <ul class="section_footer-slider-item-list">
+                    <li class="section_footer-slider-item">
+                        <a href="" class="section_footer-slider-item-link">
+                            <img src="./assets/image/sass.png" alt="">
+                        </a>
+                    </li>
+                    <li class="section_footer-slider-item">
+                        <a href="" class="section_footer-slider-item-link">
+                            <img src="./assets/image/skype.png" alt="">
+                        </a>
+                    </li>
+                    <li class="section_footer-slider-item">
+                        <a href="" class="section_footer-slider-item-link">
+                            <img src="./assets/image/jquery.png" alt="">
+                        </a>
+                    </li>
+                    <li class="section_footer-slider-item">
+                        <a href="" class="section_footer-slider-item-link">
+                            <img src="./assets/image/less.png" alt="">
+                        </a>
+                    </li>
+                    <li class="section_footer-slider-item">
+                        <a href="" class="section_footer-slider-item-link">
+                            <img src="./assets/image/pingdom.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section_footer-infor">
+            <ul class="section_footer-infor-list">
+                <li class="section_footer-infor-item">
+                    <div class="section_footer-infor-item-image">
+                        <img src="./assets/image/shopify1.png" alt="">
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo
+                    </p><br>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo
+                    </p>
+                </li>
+                <li class="section_footer-infor-item">
+                    <h2 class="section_footer-infor-item-heading">About Us</h2>
+                    <a href="" class="section_footer-infor-item-link"><i class="fa-solid fa-chevron-right"></i> Placerat bibendum</a>
+                    <a href="" class="section_footer-infor-item-link"><i class="fa-solid fa-chevron-right"></i> Ullamcorper odio nec turpis</a>
+                    <a href="" class="section_footer-infor-item-link"><i class="fa-solid fa-chevron-right"></i> Aliquam porttitor vestibulum ipsum</a>
+                    <a href="" class="section_footer-infor-item-link"><i class="fa-solid fa-chevron-right"></i> Lobortis enim nec nisi</a>
+                    <a href="" class="section_footer-infor-item-link"><i class="fa-solid fa-chevron-right"></i> Placerat bibendum</a>
+                </li>
+                <li class="section_footer-infor-item">
+                    <h2 class="section_footer-infor-item-heading">Quick Links</h2>
+                    <a href="" class="section_footer-infor-item-link"><i class="fa-solid fa-chevron-right"></i> Placerat bibendum</a>
+                    <a href="" class="section_footer-infor-item-link"><i class="fa-solid fa-chevron-right"></i> Ullamcorper odio nec turpis</a>
+                    <a href="" class="section_footer-infor-item-link"><i class="fa-solid fa-chevron-right"></i> Aliquam porttitor vestibulum ipsum</a>
+                    <a href="" class="section_footer-infor-item-link"><i class="fa-solid fa-chevron-right"></i> Lobortis enim nec nisi</a>
+                    <a href="" class="section_footer-infor-item-link"><i class="fa-solid fa-chevron-right"></i> Placerat bibendum</a>
+                </li>
+                <li class="section_footer-infor-item">
+                    <h2 class="section_footer-infor-item-heading">Contact Us</h2>
+                    <span class="section_footer-infor-item-contact"><span>Address:</span> 
+                        No.28 - 63739 street lorem ipsum,
+                        ipsum City, Country</span>
+                    <span class="section_footer-infor-item-contact"><span>Phone:</span> + 1 (234) 567 8901</span>
+                    <span class="section_footer-infor-item-contact"><span>Email:</span> email@example.com</span>
+                    <span class="section_footer-infor-item-contact"><span>Fax:</span> + 1 (234) 567 8901</span>
+                    <div class="section_footer-infor-item-social">
+                        <a href="" class="section_footer-infor-item-social-link">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="" class="section_footer-infor-item-social-link">
+                            </i><i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="" class="section_footer-infor-item-social-link">
+                            <i class="fa-brands fa-google-plus-g"></i>
+                        </a>
+                        <a href="" class="section_footer-infor-item-social-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="" class="section_footer-infor-item-social-link">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                    </div>
+                </li>   
+            </ul>
+        </section>
+        <section class="section_footer-copyright">
+            <div class="section_footer-copyright-container">
+                <span>Copyright © 2022 NXN | All rights reserved.</span>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

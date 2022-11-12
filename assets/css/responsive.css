@@ -1,0 +1,195 @@
+/* PC >= 1024px */
+
+
+/* Tablet >= 740px and < 1024px */
+@media (min-width: 740px) and (max-width: 1023px){
+    .header{
+        height: 10rem;
+        background-color: #000;
+        border: none;
+    }
+    
+    .header .navicons{
+        margin-right: 3rem;
+    }
+    .header .header_logo{
+        display: inline-block;
+        width: 20%;
+        margin-left: 3rem;
+    }
+    .header .icons #menu-btn{
+        display: inline-block;
+        padding: 1.5rem;
+    }
+    .header .icons #search-btn,
+    .header .icons #cart-btn,
+    .header .icons #menu-btn{
+        font-size: 3rem;
+
+    }
+    .header .icons #menu-btn:hover{
+        color: #008000;
+        cursor: pointer;
+    }
+    .navbar {
+        display: block;
+        list-style: none;
+        position: absolute;
+        top: 0;
+        right: -100%;
+        background: #fff;
+        width: 40%;
+        height: 100vh;
+        z-index: 10;
+        transition: 0.4s linear;
+    }
+    .navbarCloseIcon{
+        display: block;
+    }
+    .navbar.active{
+        right: 0;
+    }
+    .navbar .navbaritem{
+        padding: 2rem;
+    }
+    .navbar .navbaritem a{
+        color: #000;
+    }
+    .navbaritem-pages:hover .subnav_pages,
+    .navbaritem-features:hover .subnav_features,
+    .navbaritem-portfolio:hover .subnav_portfolio,
+    .navbaritem-pages::after,
+    .navbaritem-features::after,
+    .navbaritem-portfolio::after{
+        display: none;
+    }
+    .header .overlay.active{
+        display: block;
+    }
+    .section_column-container {
+        margin: 0 1.5rem;
+        transform: translateY(0);
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    }
+    .section_products-container-products {
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+        margin: 2rem 3rem;
+    }
+    
+}
+
+/* Mobile < 739px */
+@media (max-width: 739px){
+    .header{
+        height: 8rem;
+        background-color: #000;
+        border: none;
+    }
+    .header .header_logo {
+        width: 25%;
+        margin-left: 2rem;
+    }
+    .header .navicons{
+        margin-right: 0;
+    }
+    .header_logo-img{
+        height: 100%;
+        width: 100%;
+    }
+    .header_search{
+        right: 5rem;
+        height: 7rem;
+    }
+    .header .icons #menu-btn{
+        display: inline-block;
+        padding: 1.5rem;
+    }
+    .header .icons #search-btn,
+    .header .icons #cart-btn,
+    .header .icons #menu-btn{
+        font-size: 2.2rem;
+
+    }
+    .header .icons #menu-btn:hover{
+        color: #008000;
+        cursor: pointer;
+    }
+    .header .navbar {
+        display: block;
+        list-style: none;
+        position: absolute;
+        top: 0;
+        right: -100%;
+        background: #fff;
+        width: 70%;
+        height: 100vh;
+        z-index: 10;
+        transition: 0.4 s linear;
+    }
+    .navbarCloseIcon{
+        display: block;
+    }
+    .navbar.active{
+        right: 0;
+    }
+    .navbar .navbaritem{
+        padding: 2rem;
+    }
+    .navbar .navbaritem a{
+        color: #000;
+    }
+    .navbaritem-pages:hover .subnav_pages,
+    .navbaritem-features:hover .subnav_features,
+    .navbaritem-portfolio:hover .subnav_portfolio,
+    .navbaritem-pages::after,
+    .navbaritem-features::after,
+    .navbaritem-portfolio::after{
+        display: none;
+    }
+    .header .overlay.active{
+        display: block;
+    }
+    
+    
+    .section_slider-desc {
+        font-size: 4rem;
+    }
+
+    .section_column-container {
+        margin: 0 1.5rem;
+        transform: translateY(0);
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    }
+    .section_category-items {
+        
+        margin: 2rem;
+    }
+    .section_products-container-btn {
+        padding: 1.2rem 1.5rem;
+        margin: 0.6rem;
+    }
+    .section_products-container-products{
+        margin: 0;
+    }
+    .section_products-container-products {
+        grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+        gap: 1.5rem;
+        padding: 2rem;
+    }
+    .section_blog-items {
+        
+        margin: 2rem 2rem;
+    }
+    .section_footer-slider-item-list {
+        display: block;
+    }
+    .section_footer-slider{
+        padding: 0;
+    }
+    .section_footer-slider-item{
+        padding: 0;
+    }
+    .section_footer-infor-list{
+        margin: 0 2rem;
+    }
+}
